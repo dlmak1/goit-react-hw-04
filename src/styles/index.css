@@ -62,7 +62,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 16px;
-
   background-color: #fff;
   color: black;
   padding: 32px;
@@ -77,6 +76,9 @@ button:hover {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 16px;
   margin-left: auto;
   margin-right: auto;
