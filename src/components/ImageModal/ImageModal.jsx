@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import ReactModal from "react-modal";
 import css from "./ImageModal.module.css";
 

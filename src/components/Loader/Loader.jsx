@@ -1,15 +1,16 @@
-import React from "react";
-import { RotatingLines } from "react-loader-spinner";
+import { BeatLoader } from "react-spinners";
 import css from "./Loader.module.css";
 
 const Loader = () => {
   return (
-    <div className={css.loaderContainer}>
-      <RotatingLines
-        height="50"
-        width="50"
-        strokeWidth="3"
-        strokeColor="#ffffff"
+    <div className={css.backdrop}>
+      <BeatLoader
+        color="#3498db"
+        cssOverride={{}}
+        loading
+        margin={10}
+        size={20}
+        speedMultiplier={1}
       />
     </div>
   );

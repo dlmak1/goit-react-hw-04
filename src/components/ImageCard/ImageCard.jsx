@@ -1,4 +1,3 @@
-import React from "react";
 import css from "./ImageCard.module.css";
 
 const ImageCard = ({ image, openModal }) => {
