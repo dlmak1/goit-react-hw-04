@@ -7,7 +7,7 @@ async function fetchImages(searchQuery, page) {
   const params = new URLSearchParams({
     query: searchQuery,
     client_id: API_KEY,
-    per_page: 12,
+    per_page: 15,
     page: page,
   });
 
